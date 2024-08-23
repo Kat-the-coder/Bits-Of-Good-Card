@@ -1,0 +1,72 @@
+body {
+ background-color: rgb(59, 135, 45);
+ border: 2px dashed whitesmoke;
+  
+}
+
+
+/* styles text */
+
+h1 {
+  color: whitesmoke;
+  text-align:center;
+
+  font-family: 'Varela Round', sans-serif;
+  font-size: 350%
+}
+
+p{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 1%;
+  padding: 5px;
+  text-align:center;
+  color: whitesmoke;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 120%;
+}
+
+
+/* styles image */
+
+#mainImg{
+  width:20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 50%;
+  margin-bottom: 2em;
+  border: 3px solid #336699;
+}
+
+/* styles button */
+
+#factButton{
+  background-color: #336699;
+  color: whitesmoke;
+  padding: 20px;
+  height: 80px;
+  width: 180px;
+  border-radius: 15px;
+  
+  /* centers button */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  /* changes button color and font */
+  font-family: 'Varela Round', sans-serif;
+  font-style: bold;
+  font-size: 105%;
+  border-color: rgb(3, 30, 89);
+
+}
+
+/* changes button color when user hovers over it */
+#factButton:hover{
+  background-color: #d9e6f2;
+  color: #336699;
+  cursor: pointer;
+}
+
